@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* ################ utility classes ############# */
+.container{
+    max-width: 1200px;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+/* ############ navbar styling ###################### */
+/* for desktop */
+.navbar-content input[type="checkbox"],.hambergur-line{
+    display: none;
+}
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 9999;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+.menu-items{
+    order: 2;
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+.logo{
+    order: 1;
+    font-size: 3rem;
+}
+.navbar a{
+    color: #111;
+    text-decoration: none;
+    font-weight: 500px;
+    transition: color 0.3s ease-in-out;
+    
+
+
+}
+.navbar a:hover{
+    color: #117964;
+    
+}
+/* ############ showcase-area stylng ################## */
+.showcase-area{
+    height: 50vh;
+    background: url("./imagweb/showcase.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+}
+.btn{
+    display:inline-block;
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+    /* border: 2px solid green;
+    background: rgb(30, 167, 30); */
+    padding: 1rem 2.5rem;
+    margin-top: 1.5rem;
+    border-radius: 2.5em;
+    cursor: pointer;
+}
+.btn-primary{
+    color: #fff;
+    background: #16a083;
+    text-transform: uppercase;
+}
+.main-title{
+    text-transform: uppercase;
+}
+/* ############## About US styling ################ */
+#about{
+    padding: 50px 0;
+    background: #f5f5f5;
+}
+.abouter{
+    display: flex;
+}
+#about h2{
+    font-size: 3.2rem;
+}
+#about .small{
+    font-size: 1.6rem;
+    color: #666;
+    font-weight: 600;
+}
