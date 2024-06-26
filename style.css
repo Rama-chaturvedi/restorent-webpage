@@ -161,3 +161,25 @@ body{
     object-fit: cover;
     object-position: right;
 }
+/* ####################### section-food styling ################## */
+#food{
+    padding: 50px 0px;
+    background-color: #fff;
+}
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-type img{
+    height: 250px;
+    flex: 1 1 400px;
+    padding: 30px;
+    /* justify-content: space-evenly; */
+}
+#food h2{
+    font-weight: 700;
+    padding: 0 40%;
+    font-size: 3.2rem;
+}
+
+
