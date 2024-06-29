@@ -289,34 +289,58 @@ body{
     font-weight: 700;
 }
 /*  ######################## chef-section styling ############## */
+#chef{
+    background: rgb(243, 243, 243);
+   
+    
+}
 .chef-main-heading{
     font-size: 3.6rem;
     color: #555;
     text-align: center;
     font-weight: 600; 
-    margin-bottom: 50px;
+    
 
 }
 .chef-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    font-size: 1.6rem;
+    padding: 1rem;
+    
 }
+.chef-container .checked{
+    color: #ff9529;
+
+
+}
+.chef{
+    text-align: center;
+    padding: 1rem;
+}
+
 .chef-container-item{
     display: flex;
+    flex: 1 1 400px;
+    
+    
 }
 .chef-container-item img{
     display: block;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
     object-fit: cover;
     object-position: center;
 
 }
-.chef-description{
-    font-size: 1.4rem;
-    color: #555;
-    font-weight: 600;
+.chef-img .cefh-name{
+    margin: 1rem;
     text-align: center;
 }
+.chef-description{
+    color: #444;
+    margin: 1rem 0;
+}   
