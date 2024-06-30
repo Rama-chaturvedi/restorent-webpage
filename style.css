@@ -65,7 +65,7 @@ body{
     
 }
 /* ############ showcase-area stylng ################## */
-.showcase-area{
+#showcase-area{
     height: 50vh;
     background: url("./imagweb/showcase.jpeg");
     background-size: cover;
@@ -343,4 +343,65 @@ body{
 .chef-description{
     color: #444;
     margin: 1rem 0;
-}   
+} 
+  /* ################# contect page styling ################ */
+#contect{
+    padding: 8rem 0;
+    background: rgb(226, 226, 226);
+    
+
+}
+.contect-container{
+    display: flex; 
+    background: #fff;
+
+} 
+.contect-img{
+    
+    width: 50%;
+    
+    /* height: 50%; */
+}
+.contect-img img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.contect-description{
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+} 
+.contect-description input, textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500; 
+}
+.contect-description h2{
+    font-size: 3rem;
+    color: #555;
+    text-align: center;
+    font-weight: 600; 
+
+}
+/* ####### footer styling ################ */
+.footer-container{
+    background: #444;
+    padding: 4rem 0;
+}
+.footer-content p{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+
+}
