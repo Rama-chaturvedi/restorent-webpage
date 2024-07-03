@@ -467,3 +467,6 @@ body{
     font-size: 2rem;
 }
 /* ###################media quary ############### */
+@media (max-width:500px){
+    
+} 
