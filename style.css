@@ -418,36 +418,6 @@ body{
 
 }
 /*################ submit_response styling ###################### */
-/* body .response-area{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    max-height: 100%;
-    background: url("https://media.istockphoto.com/id/506662172/photo/white-candles-spa-lavender-bath-salts-and-cinnamon.jpg?s=612x612&w=0&k=20&c=TuR04bbL8T0XXjQr70havZgNQzwgHqeuJlUiqfVY_y8=");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-   
-
-
-}
-.response-heading{
-    text-align: center;
-    color: #555;
-    padding: 50vh;
-    font-size: 5rem;
-    font-weight: 600;
-    background: rgba(200, 200, 224, 0.1);
-    border: 1px solid rgba(225, 225, 225, 0.4);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    border-radius: 10%;
-    overflow: hidden;
-    width: 70% 70%;
-    
-
-} */
 .check i{
     font-size: 20rem;
     color: #16a083;
@@ -468,5 +438,6 @@ body{
 }
 /* ###################media quary ############### */
 @media (max-width:500px){
-    
+
+
 } 
