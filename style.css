@@ -418,11 +418,7 @@ body{
 
 }
 /*################ submit_response styling ###################### */
-.check i{
-    font-size: 20rem;
-    color: #16a083;
-    margin: 0 50%;
-}
+
 .response-container-main{
     padding: 10rem 0;
     text-align: center;
@@ -432,9 +428,22 @@ body{
     font-size: 4.6rem;
 
 }
+
+
+/* ################ submit response styling ##########################    */
 .response-container-main p{
+    font-size: 1.5rem;
     font-weight: 400;
-    font-size: 2rem;
+   
+}
+.check i{
+    font-size: 20rem;
+    color: #16a083;
+    margin: 0 center;
+}
+.response-container-main span{
+    color: #177561;
+    font: 700;
 }
 /* ###################media quary ############### */
 @media (max-width:500px){
