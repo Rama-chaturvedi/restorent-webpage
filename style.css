@@ -27,7 +27,8 @@ body{
 /* ############ navbar styling ###################### */
 
 /* for desktop */
-.navbar-content input[type="checkbox"],.hambergur-line{
+.navbar-content input[type="checkbox"], 
+.hambergur-line{
     display: none;
 }
 .navbar{
@@ -418,35 +419,64 @@ body{
 
 }
 /*################ submit_response styling ###################### */
-
+.response-submite{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+     
+}
 .response-container-main{
-    padding: 10rem 0;
-    text-align: center;
+    /* border: 2px solid red; */
+    padding: 20px;
+    outline: 0;
+    background: white; 
+    box-shadow: 5px 5px 20px 0px rgb(0 0 0 / 56%);
+    position: fixed;
 }
 .response-container-main h1{
     font: 600;
-    font-size: 4.6rem;
+    font-size: 4rem;
+    text-align: center;
 
 }
-
-
-/* ################ submit response styling ##########################    */
+.response-container-main h2{
+    padding: 5px;
+    text-align: center;
+    
+}
 .response-container-main p{
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 13px;
     font-weight: 400;
    
 }
-.check i{
-    font-size: 20rem;
+.response-container-main .check{
+    padding: 10px 0;
+    font-size: 9em;
     color: #16a083;
-    margin: 0 center;
+    margin: 0 40%;
+   
 }
 .response-container-main span{
     color: #177561;
-    font: 700;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: zoom-in;
+    text-decoration: underline;
+    
 }
 /* ###################media quary ############### */
-@media (max-width:500px){
+@media (max-width:768px){
+    .navbar{
+        opacity: 0.95;
+    }
+    .navbar-content input[type="checkbox"], 
+    .hambergur-line{
+        display: block;
+    } 
 
 
 } 
