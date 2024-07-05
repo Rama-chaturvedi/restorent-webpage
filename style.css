@@ -477,6 +477,63 @@ body{
     .hambergur-line{
         display: block;
     } 
-
-
+    .navbar-content{
+        display: block;
+        position: relative;
+        height: 64px;
+    }
+    .navbar-content input[type="checkbox"]{
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 40px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+    }
+    .navbar-content .hambergur-line{
+        display: block;
+        height: 40px;
+        width: 32px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+    }
+    .navbar-content .hambergur-line .line{
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333333;
+    }
+    .navbar-content .hambergur-line .line1{
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+    .navbar-content .hambergur-line .line2{
+        /* transform-origin: 0% 0%; */
+        transition: transform 0.4s ease-in-out;
+    }
+    .navbar-content .hambergur-line .line3{
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+    .menu-items{
+        padding-top: 100px;
+        background: #fff;
+        height: 100vh;
+        transform: translateX(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 50px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 5px 0px 10px 0px #aaa;
+        
+    }
 } 
