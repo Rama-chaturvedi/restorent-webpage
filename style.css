@@ -494,8 +494,8 @@ body{
     }
     .navbar-content .hambergur-line{
         display: block;
-        height: 40px;
-        width: 32px;
+        height: 32px;
+        width: 40px;
         position: absolute;
         top: 20px;
         left: 20px;
@@ -535,5 +535,30 @@ body{
         transition: transform 0.5s ease-in-out;
         box-shadow: 5px 0px 10px 0px #aaa;
         
+    }
+    .menu-items li{
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        font-weight: 500;
+
+    }
+    .logo{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 3rem;
+    }
+    .navbar-content input[type="checkbox"]:checked ~ .menu-items{
+        transform: translateX(0);
+
+    }
+    .navbar-content input[type="checkbox"]:checked ~ .hambergur-line .line1{
+        transform: rotate(45deg);
+    }
+    .navbar-content input[type="checkbox"]:checked ~ .hambergur-line .line2{
+        transform: scaleY(0);
+    }
+    .navbar-content input[type="checkbox"]:checked ~ .hambergur-line .line3{
+        transform: rotate(-45deg);
     }
 } 
