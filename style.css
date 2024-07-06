@@ -481,6 +481,8 @@ body{
         display: block;
         position: relative;
         height: 64px;
+        width: 90%;
+        
     }
     .navbar-content input[type="checkbox"]{
         position: absolute;
