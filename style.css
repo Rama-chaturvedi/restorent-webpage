@@ -284,6 +284,7 @@ body{
     width: 250px;
     height: 250px;
     box-shadow: 5px 5px 20px 0px rgb(0 0 0 / 56%);
+    transition: all 0.3s ease-out;
 }
 .food-description{
     margin: auto 1.5rem;
@@ -531,7 +532,7 @@ body{
         padding-top: 100px;
         background: #fff;
         height: 100vh;
-        width: 50vh;
+        max-width: 300px;
         transform: translateX(-150%);
         display: flex;
         flex-direction: column;
@@ -566,4 +567,17 @@ body{
     .navbar-content input[type="checkbox"]:checked ~ .hambergur-line .line3{
         transform: rotate(-45deg);
     }
+    /* ############# Section-food media query ############# */
+    .food-container{
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+    .food-type:not(:last-child){
+        margin-bottom: 3rem;
+    }
+    .food-type{
+        box-shadow: 5px 5px 10px 0px #aaa;
+    }
 } 
+
