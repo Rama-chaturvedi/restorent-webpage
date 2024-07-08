@@ -579,5 +579,10 @@ body{
     .food-type{
         box-shadow: 5px 5px 10px 0px #aaa;
     }
+    /* ########### food-menu media query ##################### */
+    #food-menu{
+        flex-direction: column;
+    }
+
 } 
 
