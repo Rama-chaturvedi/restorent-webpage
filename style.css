@@ -434,7 +434,7 @@ body{
     padding: 20px;
     outline: 0;
     background: white; 
-    box-shadow: 5px 5px 20px 0px rgb(0 0 0 / 56%);
+    box-shadow: 4px 4px 20px 0px rgb(0 0 0 / 56%);
     position: fixed;
 }
 .response-container-main h1{
