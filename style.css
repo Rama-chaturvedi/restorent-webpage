@@ -103,6 +103,11 @@ body{
     color: #fff;
     background: #16a083;
     text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    color: #fff;
+    background: #128068;
 }
 .main-title{
     text-transform: uppercase;
@@ -589,7 +594,7 @@ body{
 
 } 
 /* ############### small screen ######################## */
-@media (max-width: 600px){
+@media (max-width: 750px){
     html{
         font-size: 50%;
     }
@@ -614,6 +619,17 @@ body{
     .food-title{
        font-weight: 800;
     }
+   
+    .contect-container{
+        /* flex-direction: column; */
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .contect-img{
+        width: 90%;
+        margin: 3rem auto;
+    }
 
 }
 @media (max-width: 790px){
@@ -631,5 +647,74 @@ body{
         align-items: center;
 
     }
+    .small, .contect-container{
+        /* flex-direction: column; */
+        width: 90%;
+    }
+    .contect-description{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-form{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+    }
 }
+/* ####################### landscape mode ####################### */
+@media (orientation: landscape) and (max-height: 500px){
+    #showcase-area{
+        height: 50vmax;
+    }
+} 
+/* ################################################ */
+@media (min-width: 940px) and (max-width: 1200px){
+    .food-container{
+        flex-wrap: wrap;
+        /* align-items: stretch; */
+        flex-basis: 90%;
+    }
+    .food-type:not(:last-child){
+        margin-bottom: 1.5rem;
+    }
+    /* .food-type{ */
+        /* box-shadow: 5px 5px 10px 0px #aaa; */
+    /* } */
+    
+    .img-container{
+        margin: 0;
+        padding: 0;
+        height: 200px;
+        width: 210px;
+    }
+    .img-container img{
+        height: 100%;
+    }
+}
+@media (min-width: 750px) and (max-width: 940px){
+    .food-container{
+        flex-wrap: wrap;
+        /* align-items: stretch; */
+        flex-basis: 90%;
+    }
+    .food-type:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    .img-container{
+        margin: 0;
+        padding: 0;
+        height: 130px;
+        width: 150px;
+    }
+    .img-container img{
+        height: 100%;
+        width: 100%;
+    }
+    .img-content{
+        text-align: center;
 
+    }
+    .img-content h3{
+        font-size: 1.5rem;
+    }
+} 
