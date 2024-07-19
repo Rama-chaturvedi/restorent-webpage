@@ -19,4 +19,4 @@ Font Awesome:  For incorporating scalable vector icons.<br>
 ## Getting Started
 
 To view the website, simply click on the link below:<br><br>
- https://dazzling-quokka-969cc3.netlify.app/
+ https://669a02159dd1e0d38e104cbe--lively-ganache-4cddd7.netlify.app/
