@@ -155,11 +155,6 @@ body{
     transform: translateX(-150%);
     animation: about-text-animation 1s ease-in-out forwards;
 }
-@keyframes about-text-animation{        /*Animates the about text */
-    100%{
-        transform: translate(0);
-    }
-}
 .about-img img{
     display: block;
     height: 350px;
@@ -167,6 +162,11 @@ body{
     margin: auto;
     object-fit: cover;
     object-position: right;
+}
+@keyframes about-text-animation{        /*Animates the about text */
+    100%{
+        transform: translate(0);
+    }
 }
 /* ####################### section-food styling ################## */
 #food{
@@ -582,10 +582,11 @@ body{
         flex-direction: column;
         text-align: center;
     }
-    .chef-img img{
-        margin: 0 35%;
-        align-items: center;
-    }
+    .chef-img img {
+        max-width: 630px;
+        margin: 0 auto;
+        display: block;
+      }
     .small, .contect-container{
         width: 90%;
     }
